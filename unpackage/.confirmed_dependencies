@@ -1,0 +1,137 @@
+{
+  "dist/index.html": {
+    "refer": [
+      "dist/goods.detail.html",
+      "dist/mui.index.html",
+      "dist/vux.index.html",
+      "dist/goods.cart.html",
+      "dist/home.fourth.html",
+      "dist/home.first.html",
+      "dist/login.login.html",
+      "dist/home.second.html",
+      "dist/home.third.html"
+    ],
+    "resources": [
+      "dist/assets/css/vue.css",
+      "dist/assets/css/index.css",
+      "dist/assets/img/logo.png",
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/index.js"
+    ]
+  },
+  "dist/vux.index.html": {
+    "resources": [
+      "dist/assets/css/vux.index.css",
+      "dist/assets/css/vue.css"
+    ],
+    "refer": []
+  },
+  "dist/goods.detail.html": {
+    "resources": [
+      "dist/assets/css/goods.detail.css"
+    ],
+    "refer": []
+  },
+  "dist/goods.cart.html": {
+    "resources": [
+      "dist/assets/css/goods.cart.css",
+      "dist/assets/css/vue.css"
+    ],
+    "refer": []
+  },
+  "dist/home.fourth.html": {
+    "href": "dist/home.fourth.html",
+    "resources": [
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/css/home.fourth.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/home.fourth.js",
+      "dist/home.first.html"
+    ],
+    "refer": [
+      "dist/home.third.html",
+      "dist/home.second.html"
+    ],
+    "priority": 0
+  },
+  "dist/home.first.html": {
+    "href": "dist/home.first.html",
+    "resources": [
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/css/home.first.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/home.first.js"
+    ],
+    "refer": [
+      "dist/demo.qrcode.html"
+    ],
+    "priority": 0
+  },
+  "dist/login.login.html": {
+    "href": "dist/login.login.html",
+    "resources": [
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/css/login.login.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/login.login.js"
+    ],
+    "refer": [
+      "dist/home.fourth.html",
+      "dist/login.login.html"
+    ],
+    "priority": 0
+  },
+  "dist/home.second.html": {
+    "href": "dist/home.second.html",
+    "resources": [
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/css/home.second.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/home.second.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "dist/home.third.html": {
+    "href": "dist/home.third.html",
+    "resources": [
+      "dist/assets/mui/mui.css",
+      "dist/assets/mui/mui.blue.css",
+      "dist/assets/iconfont/iconfont.css",
+      "dist/assets/css/vendor.css",
+      "dist/assets/css/home.third.css",
+      "dist/assets/mui/mui.min.js",
+      "dist/manifest.js",
+      "dist/vendor.js",
+      "dist/home.third.js"
+    ],
+    "refer": [],
+    "priority": 0
+  }
+}
